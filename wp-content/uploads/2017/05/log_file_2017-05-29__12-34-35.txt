@@ -1,0 +1,89 @@
+
+---Downloaded files---
+The import files for: The Voux were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://staging.dimenticalex.com
+Data file = /home3/k5m8h1g2/staging.dimenticalex.com/wp-content/uploads/2017/05/demo-content-import-file_2017-05-29__12-34-35.xml
+Widget file = /home3/k5m8h1g2/staging.dimenticalex.com/wp-content/uploads/2017/05/demo-widgets-import-file_2017-05-29__12-34-35.json
+Customizer file = not defined!
+Redux files:
+not defined!
+Theme Options file = /home3/k5m8h1g2/staging.dimenticalex.com/wp-content/uploads/2017/05/demo-theme_options-import-file_2017-05-29__12-34-35.txt
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+

@@ -27,7 +27,7 @@ if (is_email($email))
 		if(in_array($email, $stack))
 		{
 			echo '<div class="notification-box error"><div class="content">'; 
-			_e('<strong>Oh snap!</strong> That email address is already subscribed!', 'thevoux');
+			_e('<strong>Oh snap!</strong> Quel indirizzo email è già stato sottoscritto!', 'thevoux');
 			echo "</div></div>";
 		}
 		else
@@ -52,7 +52,7 @@ if (is_email($email))
 			//close file
 			fclose($fp);
 			echo '<div class="notification-box success"><div class="content">'; 
-			_e("<strong>Well done!</strong> Your address has been added", 'thevoux');
+			_e("<strong>Ben fatto!</strong> Il tuo indirizzo è stato aggiunto", 'thevoux');
 			echo "</div></div>";
 		}
 	}
@@ -60,6 +60,6 @@ if (is_email($email))
 else
 {
 	echo '<div class="notification-box error"><div class="content">';  
-	_e("<strong>Oh snap!</strong> Please enter a valid email address", 'thevoux');
+	_e("<strong>Oh snap!</strong> Si prega di inserire un indirizzo email valido", 'thevoux');
 	echo "</div></div>";
 }

@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div class="row">
+
 	<section class="blog-section small-12 medium-8 columns">
 		<div class="row">
 			<?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
@@ -8,7 +9,7 @@
 				</div>
 			<?php endwhile; else : ?>
 			  	<?php get_template_part( 'inc/templates/loop/notfound' ); ?>
-			<?php endif; ?>
+		<?php endif; ?>
 		</div>
 		<?php if ( get_next_posts_link() || get_previous_posts_link()) { ?>
 		<div class="blog_nav">
@@ -25,3 +26,4 @@
 	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
+

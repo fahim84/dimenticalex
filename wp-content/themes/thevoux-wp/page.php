@@ -6,7 +6,7 @@
 		<?php the_content(); ?>
 		<?php if ( comments_open() || get_comments_number() ) : ?>
 			<!-- Start #comments -->
-			<?php comments_template('', true); ?>
+             <?php comments_template('', true); ?>
 			<!-- End #comments -->
 		<?php endif; ?>
 	<?php endwhile; else : endif; ?>

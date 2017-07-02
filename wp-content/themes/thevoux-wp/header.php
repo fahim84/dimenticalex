@@ -30,4 +30,10 @@
 		<!-- End Content Click Capture -->
 		<?php get_template_part( 'inc/templates/header/fixed-'.$header_fixed_style ); ?>
 		<?php get_template_part( 'inc/templates/header/'.$header_style ); ?>
+		<?php if(is_front_page()): ?>
+
+<?php echo do_shortcode('[thb_postcarousel columns="3" navigation="true"]');?>
+
+<?php endif; ?>
+
 		<div role="main" class="cf">
