@@ -63,7 +63,7 @@ function thb_product_badge() {
 			echo apply_filters('woocommerce_sale_flash', '<span class="badge onsale">'.__( 'Sale','thevoux' ).'</span>', $post, $product);
 		}
 	} else {
-		$postdate 		= get_the_time( 'Y-m-d' );			// Post date
+		$postdate 		= get_the_time( 'm-d-y' );			// Post date
 		$postdatestamp 	= strtotime( $postdate );			// Timestamped post date
 		$newness = ot_get_option('shop_newness', 7);
 		if ( ( time() - ( 60 * 60 * 24 * $newness ) ) < $postdatestamp) { // If the product was published within the newness time frame display the new badge

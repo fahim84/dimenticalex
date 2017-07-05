@@ -48,7 +48,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<li class="woocommerce-order-overview__date date">
 				<?php _e( 'Date:', 'thevoux' ); ?>
-				<strong><?php echo date_i18n( get_option( 'date_format' ), $order->get_date_created() ); ?></strong>
+				<strong><?php echo date_i18n( get_option( 'date_format' ), strtotime( $order->order_date ) ); ?></strong>
 			</li>
 
 			<li class="woocommerce-order-overview__total total">
